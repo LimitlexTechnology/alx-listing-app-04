@@ -28,7 +28,7 @@ export default function PropertyCard({ property }: Props) {
       <div className="mt-3">
         {property?.id ? (
           <Link
-            href={`/properties/${property.id}`}
+            href={`/property/${property.id}`}
             className="text-blue-600 hover:underline"
           >
             View details →
